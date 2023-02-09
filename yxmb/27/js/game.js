@@ -83,7 +83,7 @@
     var Screen = {
         welcome: function() {
             this.text = '****';
-            this.textSub = 'www.xiaoqbk.com';
+            this.textSub = 'baidu.com';
             this.textColor = 'white';
             this.create();//调用本身的图像绘制方法
         },

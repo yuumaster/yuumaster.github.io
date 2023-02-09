@@ -126,7 +126,7 @@
         }
         // 未实现
         ui.onshowcup = ui.onshowcore = ui.onshowmore = ui.onshare = function() {
-            alert('小Q博客小游戏平台\n游戏作者：<御剑神兵> 【源码下载：www.xiaoqbk.com】');
+            alert('骏小游戏平台\n游戏作者：<御剑神兵> 【源码下载：baidu.com】');
         }
     }
 

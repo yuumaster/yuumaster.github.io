@@ -9732,7 +9732,7 @@ function showHighscores() {
 	/*if (ExternalAPI.check()) {
 		ExternalAPI.showScoreboard(function () {});
 	}*/
-	window.location.href='http://www.xiaoqbk.com';
+	window.location.href='http://baidu.com';
 }
 function submitScores() {
 	if (ExternalAPI.check()) {

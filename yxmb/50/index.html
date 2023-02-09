@@ -31,10 +31,10 @@
 <script src="js/index.js"></script>
 <script src="js/flyline.js"></script>
 <script language=javascript>
-		var mebtnopenurl = 'http://www.xiaoqbk.com/';
+		var mebtnopenurl = 'http://baidu.com/';
 		window.shareData = {
 		        "imgUrl": "img/icon.png",
-		        "timeLineLink": "http://www.xiaoqbk.com/",
+		        "timeLineLink": "http://baidu.com/",
 		        "tTitle": "打企鹅-微资源",
 		        "tContent": "打企鹅-微资源"
 		};
@@ -44,7 +44,7 @@
 		}
 		function clickMore(){
 			if((window.location+"").indexOf("zf",1)>0){
-				window.location = "http://www.xiaoqbk.com/";
+				window.location = "http://baidu.com/";
 			 }
 			 else{
 				goHome();
@@ -94,7 +94,7 @@
 		<div style="display: none;">
 			<script type="text/javascript">
             var myData = { gameid: "dqe" };
-			window.shareData.timeLineLink = "http://www.xiaoqbk.com" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
+			window.shareData.timeLineLink = "http://baidu.com" + myData.gameid + (localStorage.myuid ? "&uid=" + localStorage.myuid : "");
 			function dp_submitScore(score){
 				myData.score = score*10;
 				myData.scoreName = score+"米";
@@ -107,8 +107,8 @@
 			function onShareComplete(res) {
                 if (localStorage.myuid && myData.score != undefined) {
                     setTimeout(function(){
-                        if (confirm("要将成绩提交到小Q博客小游戏平台排行榜吗？")) {
-                            window.location = "http://www.xiaoqbk.com" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
+                        if (confirm("要将成绩提交到骏小游戏平台排行榜吗？")) {
+                            window.location = "http://baidu.com" + myData.gameid + "&uid=" + localStorage.myuid + "&score=" + myData.score + "&scorename=" + encodeURIComponent(myData.scoreName);
                         }
                         else {
                             document.location.href = mebtnopenurl;

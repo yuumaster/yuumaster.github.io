@@ -195,7 +195,7 @@
             },
             /* 关于 */
             about:function () {
-                alert('小Q博客：www.xiaoqbk.com');
+                alert('骏：baidu.com');
             }
         };
 
